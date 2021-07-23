@@ -1,0 +1,33 @@
+.navbar1 {
+    background-color: mediumaquamarine;
+    position: absolute;
+    display: flex;
+    box-shadow: black 0rem 0.4rem 1.2rem;
+    width: 35%;
+    height: 15%;
+    border-radius: 20px;
+    margin-left: 33%;
+}
+
+.navbarcontent {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.navbarhead{
+    padding-top: 2%;
+    height: 90%;
+    font-size: 350%;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.musicicon {    
+    padding-top: 2%;    
+    overflow: hidden;    
+    width: 30%;
+}

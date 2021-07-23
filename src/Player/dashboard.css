@@ -1,0 +1,113 @@
+.container {
+    background:mediumturquoise;
+    position: absolute;
+    box-shadow: black 0.2rem 0.4rem 1.2rem;
+    border-radius: 40px;
+    top: 10%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-left: 38%;
+    margin-top: 6%;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+}
+
+.player {
+    text-align: center;
+    width: auto;
+}
+
+.player #songname {
+
+}
+
+.player #artist {
+    color: darkslategray;
+}
+
+.audioimg1 {
+    height: 4%;
+    width: 60%;
+    border-radius: 120px;
+    box-shadow: black 0rem 0.4rem 1.6rem;
+}
+
+.audioimg1:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.container1 {
+    display: flex;
+    width: 80%;
+    height: 10%;
+    padding-top: 8%;
+    padding-left: 10%;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+.buttons {
+    height: 10%;
+    width: 10%;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+.dashboard {
+    background-image: url(../images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*<---progressBar--->*/
+
+.progressbar_container {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+.progress_div {
+    width: 100%;
+    height: 0.5rem;
+    box-shadow: black 0rem 0.4rem 1.6rem;
+    border-radius: 4rem;
+    position: relative;
+    margin-top: 0.5rem;
+    transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: black;
+    border-radius: 4rem;
+    transition: width 1s linear;
+    -moz-transition: width 1s linear;
+    -o-transition: width 1s linear;
+    -webkit-transition: width 1s linear;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.progress_duration_meter {
+    display: flex;
+    justify-content: space-between;
+}
